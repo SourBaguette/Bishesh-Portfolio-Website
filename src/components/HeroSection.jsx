@@ -3,8 +3,13 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const HeroSection = () => {
+  const handleResumeDownload = () => {
+    window.open("/resume/resume.pdf", "_blank");
+  };
+
   return (
     <section className="grid grid-cols-1 lg:grid-cols-12 my-4">
       <motion.div
@@ -19,28 +24,25 @@ const HeroSection = () => {
           </span>{" "}
           <br></br>
           <TypeAnimation
-            sequence={[
-              "Bishesh",
-              1000,
-              "Web Developer",
-              1000,
-              "UI/UX Designer",
-              1000,
-            ]}
+            sequence={["Bishesh", 1000, "Web Developer", 1000]}
             wrapper="span"
             speed={50}
             repeat={Infinity}
           />
         </h1>
         <p className="text-[#ADB7BE] mb-6 textl-lg lg:text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-          voluptatum.
+          Aspiring Web Developer looking for a full-time position.
         </p>
         <div>
-          <button className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4">
-            Hire Me
-          </button>
-          <button className="m-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 px-1 py-1  text-white rounded-full">
+          <Link href="#contact">
+            <button className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4">
+              Hire Me
+            </button>
+          </Link>
+          <button
+            className="m-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 px-1 py-1  text-white rounded-full"
+            onClick={handleResumeDownload}
+          >
             <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
               Download CV
             </span>
