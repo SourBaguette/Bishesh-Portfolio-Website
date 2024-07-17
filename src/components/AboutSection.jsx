@@ -98,8 +98,8 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg ">
             I am a passionate Web Developer, specialized in creating responsive,
             user-centric interfaces. My portofolio boasts numerous project where
-            I've demonstrated proficiency in crafting clean and intuitive
-            designs. Now, I'm eagerly seeking engaging opportunities in both
+            I&apos;ve demonstrated proficiency in crafting clean and intuitive
+            designs. Now, I&apos;m eagerly seeking engaging opportunities in both
             part-time and full-time capacities to further expand my skills and
             contribute to impactful projects.
           </p>
