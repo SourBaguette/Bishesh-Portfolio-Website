@@ -28,11 +28,12 @@ const TAB_DATA = [
         <div>
           <h3 className="font-bold text-md">Programming Languages</h3>
           <ul className="list-disc pl-2">
-            <li>JavaScript/TypeScript</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>NodeJS</li>
             <li>Python</li>
             <li>HTML</li>
             <li>CSS</li>
-            <li>NodeJS</li>
             <li>C/C++</li>
           </ul>
         </div>
@@ -44,14 +45,25 @@ const TAB_DATA = [
             <li>ExpressJS</li>
             <li>TailwindCSS</li>
             <li>Bootstrap</li>
+            <li>AngularJS</li>
           </ul>
         </div>
         <div>
-          <h3 className="font-bold text-md">Tools</h3>
+          <h3 className="font-bold text-md">Databases</h3>
           <ul className="list-disc pl-2">
-            <li>Git version control</li>
-            <li>Wix Headless</li>
+            <li>MongoDB</li>
+            <li>Mongoose</li>
+            <li>Prisma</li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="font-bold text-md">Tools and Technical</h3>
+          <ul className="list-disc pl-2">
+            <li>Git</li>
             <li>Firebase</li>
+            <li>Figma</li>
+            <li>JWT</li>
+            <li>React Redux</li>
           </ul>
         </div>
       </div>
@@ -99,9 +111,9 @@ const AboutSection = () => {
             I am a passionate Web Developer, specialized in creating responsive,
             user-centric interfaces. My portofolio boasts numerous project where
             I&apos;ve demonstrated proficiency in crafting clean and intuitive
-            designs. Now, I&apos;m eagerly seeking engaging opportunities in both
-            part-time and full-time capacities to further expand my skills and
-            contribute to impactful projects.
+            designs. Now, I&apos;m eagerly seeking engaging opportunities in
+            both part-time and full-time capacities to further expand my skills
+            and contribute to impactful projects.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
